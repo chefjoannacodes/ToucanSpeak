@@ -14,6 +14,27 @@ $("#submit-btn").on("click", function(event) {
 	youtube(inputName);
 });
 
+$("#italian-btn").on("click", function(event) {
+	var inputName = "Learn+Italian+with+Lucrezia"
+	console.log("The input name", inputName);
+	youtube(inputName);
+});
+$("#spanish-btn").on("click", function(event) {
+	var inputName = "Shakira+english+subtitles"
+	console.log("The input name", inputName);
+	youtube(inputName);
+});
+$("#portuguese-btn").on("click", function(event) {
+	var inputName = "Mayra+andrade+subtitles"
+	console.log("The input name", inputName);
+	youtube(inputName);
+});
+$("#french-btn").on("click", function(event) {
+	var inputName = "Zaz+subtitles"
+	console.log("The input name", inputName);
+	youtube(inputName);
+});
+
 function youtube(inputName) {
 	event.preventDefault();
 	// var allYoutube = "http://www.googleapis.com/youtube/v3/videos?key=" + youtubeAPIKey + "&part=snippet&id=" + inputName;
