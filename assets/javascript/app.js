@@ -62,6 +62,7 @@ function youtube(inputName) {
 		var titleDiv = $("<div>");
 		titleDiv.addClass("video-title");
 		titleDiv.append(videoTitle);
+		titleDiv.append(fullLink);
 		outerDiv.prepend(titleDiv);
 		outerDiv.attr("data-file", response.items[i].id.videoId);
 		outerDiv.attr("id", response.items[i].id.videoId);
